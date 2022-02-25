@@ -8,10 +8,10 @@
 
 #include "Shape.h"
 
-class Square : public Shape{
+class Square {
 public:
     Square(double side);
-    double area() const override;
+    double area() const ;
     double side;
 };
 

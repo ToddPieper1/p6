@@ -6,10 +6,10 @@
 #define POLY_CIRCLE_H
 #include "Shape.h"
 
-class Circle : public Shape{
+class Circle {
 public:
     Circle(double radius);
-    double area() const override;
+    double area() const ;
 protected:
     double radius;
 };

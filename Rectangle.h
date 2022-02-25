@@ -6,10 +6,10 @@
 #define POLY_RECTANGLE_H
 #include "Shape.h"
 
-class Rectangle : public Shape {
+class Rectangle {
 public:
     Rectangle(double width, double height);
-    double area() const override;
+    double area() const ;
 protected:
     double width =0;
     double height =0;
