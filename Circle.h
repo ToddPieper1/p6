@@ -9,7 +9,7 @@
 class Circle : public Shape{
 public:
     Circle(double radius);
-
+    double area() const override;
 protected:
     double radius;
 };

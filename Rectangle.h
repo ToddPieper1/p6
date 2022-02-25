@@ -9,7 +9,7 @@
 class Rectangle : public Shape {
 public:
     Rectangle(double width, double height);
-
+    double area() const override;
 protected:
     double width =0;
     double height =0;

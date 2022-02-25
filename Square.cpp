@@ -6,3 +6,7 @@
 Square::Square(double side) {
     Square::side=side;
 }
+
+double Square::area() const {
+    return side*side;
+}

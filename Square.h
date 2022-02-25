@@ -11,8 +11,7 @@
 class Square : public Shape{
 public:
     Square(double side);
-
-protected:
+    double area() const override;
     double side;
 };
 
